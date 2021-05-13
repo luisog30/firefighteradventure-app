@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6DE95"
+    tools:context=".fragments.ProfileGeneralFragment">
+
+    <TextView
+        android:id="@+id/tvProfileGeneralScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:text="@string/score_string"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@id/ivProfileGeneralPhoto"
+        app:layout_constraintStart_toEndOf="@id/ivProfileGeneralPhoto"
+        app:layout_constraintTop_toTopOf="@id/ivProfileGeneralPhoto"
+        app:layout_constraintVertical_bias="0.19" />
+
+    <ImageView
+        android:id="@+id/ivProfileGeneralPhoto"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="200dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvProfileGeneral"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/profile_string"
+        android:textColor="@android:color/background_dark"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/ivProfileGeneralPhoto"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvProfileGeneralRankingPosition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/ranking_position_string"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@id/tvProfileGeneralScore"
+        app:layout_constraintTop_toBottomOf="@+id/tvProfileGeneralScore" />
+
+    <TextView
+        android:id="@+id/tvProfileGeneralUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/username_string"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@id/ivProfileGeneralPhoto"
+        app:layout_constraintTop_toBottomOf="@id/ivProfileGeneralPhoto" />
+
+    <TextView
+        android:id="@+id/tvProfileGeneralEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/email_string"
+        android:textColor="@android:color/background_dark"
+        app:layout_constraintStart_toStartOf="@id/tvProfileGeneralUsername"
+        app:layout_constraintTop_toBottomOf="@id/tvProfileGeneralUsername" />
+
+    <TextView
+        android:id="@+id/tvProfileGeneralBirthdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/birthdate_string"
+        android:textColor="@android:color/background_dark"
+        app:layout_constraintStart_toStartOf="@id/tvProfileGeneralEmail"
+        app:layout_constraintTop_toBottomOf="@id/tvProfileGeneralEmail" />
+
+    <Button
+        android:id="@+id/btnBackProfileGeneral"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorAccent"
+        android:text="@string/back_string"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.92" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

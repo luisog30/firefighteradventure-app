@@ -1,0 +1,29 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/language_string"
+        android:key="languageCategory">
+
+        <SwitchPreferenceCompat
+            app:key="chooseAppLanguage"
+            app:title="@string/choose_app_language_string" />
+
+        <ListPreference
+            android:dependency="chooseAppLanguage"
+            android:entries="@array/app_language"
+            android:entryValues="@array/languages"
+            android:key="savedLanguage"
+            android:defaultValue="en"
+            android:title="@string/choose_a_language_string" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory>
+
+        <Preference
+            android:key="btnBackPreferences"
+            android:title="@string/back_string" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

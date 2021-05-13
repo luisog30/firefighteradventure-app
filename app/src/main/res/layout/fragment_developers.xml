@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6DE95"
+    tools:context=".fragments.DevelopersFragment">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/linearLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/ivSumaya"
+            android:layout_width="66dp"
+            android:layout_height="82dp"
+            android:layout_gravity="center|center_horizontal|center_vertical"
+            android:background="@drawable/sumy" />
+
+        <TextView
+            android:id="@+id/tvSumaya"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_horizontal|center_vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:foregroundGravity="center_vertical|center|center_horizontal"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:lines="2"
+            android:text="@string/sumaya_string"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/ivMeritxell"
+            android:layout_width="66dp"
+            android:layout_height="82dp"
+            android:layout_gravity="center|center_horizontal|center_vertical"
+            android:adjustViewBounds="true"
+            android:background="@drawable/meri"
+            android:scaleType="centerInside" />
+
+        <TextView
+            android:id="@+id/tvMeritxell"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_horizontal|center_vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:foregroundGravity="center_vertical|center|center_horizontal"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:lines="2"
+            android:text="@string/meritxell_string"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/ivLluis"
+            android:layout_width="66dp"
+            android:layout_height="82dp"
+            android:layout_gravity="center|center_horizontal|center_vertical"
+            android:adjustViewBounds="true"
+            android:background="@drawable/lluis"
+            android:scaleType="centerInside" />
+
+        <TextView
+            android:id="@+id/tvLluis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_horizontal|center_vertical"
+            android:layout_marginTop="10dp"
+            android:foregroundGravity="center_vertical|center|center_horizontal"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:lines="2"
+            android:text="@string/lluis_string"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/linearLayout4"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/ivEric"
+            android:layout_width="66dp"
+            android:layout_height="82dp"
+            android:layout_gravity="center|center_horizontal|center_vertical"
+            android:adjustViewBounds="false"
+            android:background="@drawable/eric"
+            android:scaleType="centerInside" />
+
+        <TextView
+            android:id="@+id/tvEric"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_horizontal|center_vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:foregroundGravity="center_vertical|center|center_horizontal"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:lines="2"
+            android:text="@string/eric_string"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/ivSuhail"
+            android:layout_width="66dp"
+            android:layout_height="82dp"
+            android:layout_gravity="center|center_horizontal|center_vertical"
+            android:adjustViewBounds="true"
+            android:background="@drawable/suha"
+            android:scaleType="centerInside" />
+
+        <TextView
+            android:id="@+id/tvSuhail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_horizontal|center_vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:foregroundGravity="center_vertical|center|center_horizontal"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:lines="2"
+            android:text="@string/suhail_string"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/ivGerard"
+            android:layout_width="66dp"
+            android:layout_height="82dp"
+            android:layout_gravity="center|center_horizontal|center_vertical"
+            android:adjustViewBounds="true"
+            android:background="@drawable/gerard"
+            android:scaleType="centerInside" />
+
+        <TextView
+            android:id="@+id/tvGerard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_horizontal|center_vertical"
+            android:layout_marginTop="10dp"
+            android:foregroundGravity="center_vertical|center|center_horizontal"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:lines="2"
+            android:text="@string/gerard_string"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/who_we_are_string"
+        android:textColor="@android:color/background_dark"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnBackDevelopers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorAccent"
+        android:text="@string/back_string"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

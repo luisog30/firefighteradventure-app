@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Firefighter Adventure</string>
+    <string name="login_string">Inicia sessió</string>
+    <string name="password_string">🔑 Contrasenya</string>
+    <string name="username_string">👦 Usuari</string>
+    <string name="register_string">Registra\'t</string>
+    <string name="users_string">Usuaris</string>
+    <string name="welcome_back_string">Benvingut de nou! 😎</string>
+    <string name="show_users_string">Mostra llistat d\'usuaris</string>
+    <string name="confirm_password_string">🗝️ Confirma contrasenya</string>
+    <string name="passwords_not_match_string">Les contrasenyes no coincideixen</string>
+    <string name="write_username_string">Has d\'escriure un nom d\'usuari</string>
+    <string name="write_password_string">Has d\'escriure una contrasenya</string>
+    <string name="write_email_string">Has d\'escriure un email</string>
+    <string name="write_birthdate_string">Has d\'escriure una data de naixement</string>
+    <string name="write_confirm_password_string">Has de confirmar la teva contrasenya</string>
+    <string name="succesful_register_string">T\'has registrat correctament!</string>
+    <string name="error_register_string">S\'ha produït un error a l\'intentar registrar l\'usuari</string>
+    <string name="login_succesful_string">Has iniciat sessió correctament!</string>
+    <string name="user_already_exists_string">Ja existeix un usuari amb aquest nom</string>
+    <string name="incorrect_password_string">Contrasenya incorrecta</string>
+    <string name="error_login_string">S\'ha produït un error a l\'intentar iniciar sessió</string>
+    <string name="user_not_exists_string">No existeix un usuari amb aquest nom</string>
+    <string name="username_short_long_string">El teu nom d\'usuari ha de tenir entre %1$d i %2$d caràcters</string>
+    <string name="password_short_long_string">La teva contrasenya ha de tenir entre %1$d i %2$d caràcters</string>
+    <string name="email_short_long_string">El teu email ha de tenir entre %1$d i %2$d caràcters</string>
+    <string name="too_young_string">Has de tenir almenys %1$d anys per poder jugar</string>
+    <string name="email_string">📧 Email</string>
+    <string name="birthdate_string">🐣 Data de naixement</string>
+    <string name="delete_account_string">Donar-me de baixa</string>
+    <string name="change_password_string">Canvia contrasenya</string>
+    <string name="change_email_string">Canvia email</string>
+    <string name="hello_string">Hola</string>
+    <string name="confirm_new_password_string">Confirma la nova contrasenya</string>
+    <string name="new_password_string">Nova contrasenya</string>
+    <string name="forgotten_password_string">He oblidat la meva contrasenya</string>
+    <string name="yes_string">👍 Sí</string>
+    <string name="no_string">👎 No</string>
+    <string name="confirm_logout_string">Estàs segur de que vols tancar la sessió?</string>
+    <string name="logout_string">Tanca la sessió</string>
+    <string name="no_internet_connection_string">El teu dispositiu no està connectat a Internet!</string>
+    <string name="you_need_internet_connection_string">Necessites una connexió activa a Internet per poder jugar a Firefighter Adventure</string>
+    <string name="retry_string">🔃 Torna-ho a provar</string>
+    <string name="connection_error_string">No s\'ha pogut establir la connexió amb el servidor de Firefighter Adventure</string>
+    <string name="confirm_new_email_string">Confirma el nou email</string>
+    <string name="new_email_string">Nou email</string>
+    <string name="who_we_are_string">Qui som</string>
+    <string name="must_confirm_account_deletion_string">Has de confirmar que vols donar-te de baixa</string>
+    <string name="confirm_account_deletion_string">Confirmo que vull esborrar permanentment el meu compte</string>
+    <string name="back_string">⬅️ Tornar</string>
+    <string name="please_enter_your_string">Siusplau, introdueix el teu:</string>
+    <string name="recover_password_string">Recuperar contrasenya</string>
+    <string name="ranking_string">Ranking</string>
+    <string name="you_sure_delete_account_string">Estàs segur de que vols esborrar el teu compte permanentment?</string>
+    <string name="delete_account_two_string">Eliminar compte</string>
+    <string name="account_deleted_string">Has eliminar el teu compte</string>
+    <string name="write_confirm_new_password">Has de confirmar la teva nova contrasenya</string>
+    <string name="write_new_password_string">Has d\'escriure una nova contrasenya</string>
+    <string name="write_current_password_string">Has d\'escriure la teva contrasenya actual</string>
+    <string name="profile_string">Perfil</string>
+    <string name="score_string">💯 Puntuació</string>
+    <string name="ranking_position_string">🏅 Posició al ranking</string>
+    <string name="shop_string">Botiga</string>
+    <string name="password_changed_string">Has canviat la teva contrasenya</string>
+    <string name="your_position_is_string">La teva posició al ranking és la</string>
+    <string name="email_changed_string">Has canviat el teu email</string>
+    <string name="play_string">Jugar</string>
+    <string name="configuration_string">⚙ Configuració</string>
+    <string name="sumaya_string">Sumaya Benali</string>
+    <string name="suhail_string">Suhail Chaib</string>
+    <string name="meritxell_string">Meritxell Hermoso</string>
+    <string name="gerard_string">Gerard Milán</string>
+    <string name="lluis_string">Lluís Expósito</string>
+    <string name="eric_string">Eric Mata</string>
+    <string name="language_string">🗣 Idioma</string>
+    <string name="choose_app_language_string">️Escollir l\'idioma de l\'app</string>
+
+    <string-array name="app_language">
+        <item>Anglès</item>
+        <item>Català</item>
+        <item>Castellà</item>
+    </string-array>
+
+    <string-array name="languages">
+        <item>en</item>
+        <item>ca</item>
+        <item>es</item>
+    </string-array>
+
+    <string name="choose_a_language_string">️‍🗨️ ️Escolleix un idioma</string>
+    <string name="selected_language_string">Idioma seleccionat:</string>
+    <string name="logged_out_string">Has tancat la sessió</string>
+    <string name="search_user_string">Buscar un usuari</string>
+    <string name="write_new_email_string">Has d\'escriure un nou email</string>
+    <string name="emails_do_not_match_string">Els emails no coincideixen</string>
+    <string name="write_confirm_new_email">Has de confirmar el teu nou email</string>
+    <string name="email_already_exists_string">Ja existeix un usuari amb aquest email</string>
+    <string name="choose_game_string">Tria una partida</string>
+    <string name="map_string">🗺️ Mapa</string>
+    <string name="coins_string">💰 Monedes</string>
+    <string name="created_at_on_string">🔴 Creada a les %1$s del %2$s</string>
+    <string name="last_access_at_on_string">🔥 Últim accés a les %1$s del %2$s</string>
+    <string name="finished_at_on_string">🔚 Finalitzada a les %1$s del %2$s</string>
+    <string name="position_string">🏅 Posició</string>
+    <string name="new_game_string">🆕 Nova partida</string>
+    <string name="health_string">❤ Salut</string>
+    <string name="attack_string">🗡️ Atac</string>
+    <string name="defense_string">🛡 Defensa</string>
+    <string name="healing_string">💊 Sanació</string>
+    <string name="speed_string">⚡ Velocitat</string>
+    <string name="game_does_not_exist_string">La partida no existeix</string>
+    <string name="are_you_sure_delete_game_string">Estàs segur de que vols borrar aquesta partida?</string>
+    <string name="delete_game_string">Borrar partida</string>
+    <string name="price_string">💸 Preu</string>
+    <string name="description_string">💡 Descripció</string>
+    <string name="you_have_string">🎒 En tens</string>
+    <string name="buy_string">🛒 Comprar</string>
+    <string name="what_do_you_want_to_buy_string">Què vols comprar?</string>
+    <string name="upgrades_string">Millores</string>
+    <string name="items_string">Ítems</string>
+    <string name="change_string">📤 Canviar</string>
+    <string name="profile_photo_url_string">🔗 URL de la foto de perfil</string>
+    <string name="enter_new_profile_photo_url_string">Introdueix una nova URL de foto de perfil:</string>
+    <string name="must_enter_a_url_string">Has d\'escriure una URL</string>
+    <string name="you_have_changed_your_profile_photo_string">Has canviat la teva foto de perfil</string>
+    <string name="orders_string">Comandes</string>
+    <string name="game_deleted_string">Has eliminat la partida</string>
+    <string name="game_created_string">Has creat una nova partida</string>
+    <string name="create_new_game_string">Crear nova partida</string>
+    <string name="want_to_create_new_game_string">Vols crear una nova partida?</string>
+    <string name="bought_at_on_string">Comprat a les %1$s del %2$s</string>
+    <string name="item_does_not_exist_string">L\'ítem no existeix</string>
+    <string name="not_enough_coins_string">No tens prou monedes</string>
+    <string name="you_have_bought_string">Has comprat</string>
+    <string name="amount_string">📦 Quantitat</string>
+    <string name="how_many_do_you_want_to_buy_string">Quants vols comprar?</string>
+    <string name="no_games_string">No hi ha partides</string>
+    <string name="no_orders_string">No hi ha comandes</string>
+    <string name="we_have_sent_you_an_email_string">T\'hem enviat un email amb la teva nova contrasenya</string>
+
+</resources>

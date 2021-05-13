@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6DE95"
+    tools:context=".fragments.UpgradesFragment">
+
+
+    <TextView
+        android:id="@+id/tvCoinsUpgrades"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/textbox"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="@string/coins_string"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/tvAttackUpgrades"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvUpgrades" />
+
+    <Button
+        android:id="@+id/btnUpgradeHealing"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:text="➕"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/pbHealingUpgrades"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/pbHealingUpgrades"
+        app:layout_constraintTop_toTopOf="@+id/pbHealingUpgrades" />
+
+    <Button
+        android:id="@+id/btnUpgradeSpeed"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:text="➕"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/pbSpeedUpgrades"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/pbSpeedUpgrades"
+        app:layout_constraintTop_toTopOf="@+id/pbSpeedUpgrades" />
+
+    <Button
+        android:id="@+id/btnUpgradeDefense"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:text="➕"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/pbDefenseUpgrades"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/pbDefenseUpgrades"
+        app:layout_constraintTop_toTopOf="@+id/pbDefenseUpgrades" />
+
+    <TextView
+        android:id="@+id/tvUpgrades"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/upgrades_string"
+        android:textColor="@android:color/background_dark"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.050000012" />
+
+    <TextView
+        android:id="@+id/tvSpeedUpgrades"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:text="@string/speed_string"
+        android:textColor="@android:color/background_dark"
+        app:layout_constraintStart_toStartOf="@+id/pbSpeedUpgrades"
+        app:layout_constraintTop_toBottomOf="@+id/tvHealingUpgrades" />
+
+    <TextView
+        android:id="@+id/tvHealingUpgrades"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:text="@string/healing_string"
+        android:textColor="@android:color/background_dark"
+        app:layout_constraintStart_toStartOf="@+id/pbHealingUpgrades"
+        app:layout_constraintTop_toBottomOf="@+id/tvDefenseUpgrades" />
+
+    <TextView
+        android:id="@+id/tvDefenseUpgrades"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:text="@string/defense_string"
+        android:textColor="@android:color/background_dark"
+        app:layout_constraintStart_toStartOf="@+id/pbDefenseUpgrades"
+        app:layout_constraintTop_toBottomOf="@+id/tvAttackUpgrades" />
+
+    <TextView
+        android:id="@+id/tvAttackUpgrades"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="@string/attack_string"
+        android:textColor="@android:color/background_dark"
+        app:layout_constraintBottom_toTopOf="@+id/pbAttackUpgrades"
+        app:layout_constraintStart_toStartOf="@+id/pbAttackUpgrades"
+        app:layout_constraintTop_toBottomOf="@+id/tvHealthGame" />
+
+    <ProgressBar
+        android:id="@+id/pbSpeedUpgrades"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="100dp"
+        android:progress="40"
+        android:progressTint="#FDD835"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvSpeedUpgrades" />
+
+    <ProgressBar
+        android:id="@+id/pbAttackUpgrades"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="100dp"
+        android:progress="20"
+        android:progressTint="@android:color/holo_purple"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/pbDefenseUpgrades"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="100dp"
+        android:progress="50"
+        android:progressTint="@android:color/holo_blue_dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvDefenseUpgrades" />
+
+    <ProgressBar
+        android:id="@+id/pbHealingUpgrades"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="100dp"
+        android:progress="90"
+        android:progressTint="@android:color/holo_green_light"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvHealingUpgrades" />
+
+    <Button
+        android:id="@+id/btnBackUpgrades"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorAccent"
+        android:text="@string/back_string"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnUpgradeSpeed" />
+
+    <Button
+        android:id="@+id/btnUpgradeAttack"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:text="➕"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/pbAttackUpgrades"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/pbAttackUpgrades"
+        app:layout_constraintTop_toTopOf="@+id/pbAttackUpgrades" />
+</androidx.constraintlayout.widget.ConstraintLayout>

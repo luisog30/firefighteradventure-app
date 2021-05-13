@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Firefighter Adventure</string>
+    <string name="login_string">Iniciar sesión</string>
+    <string name="welcome_back_string">Bienvenido de nuevo! 😎</string>
+    <string name="users_string">Usuarios</string>
+    <string name="show_users_string">Mostrar lista de usuarios</string>
+    <string name="register_string">Regístrate</string>
+    <string name="username_string">👦 Usuario</string>
+    <string name="password_string">🔑 Contraseña</string>
+    <string name="confirm_password_string">🗝️ Confirma tu contraseña</string>
+    <string name="passwords_not_match_string">Las contraseñas no coinciden</string>
+    <string name="write_username_string">Debes escribir un nombre de usuario</string>
+    <string name="write_password_string">Debes escribir una contraseña</string>
+    <string name="write_email_string">Debes escribir un email</string>
+    <string name="write_birthdate_string">Debes escribir una fecha de nacimiento</string>
+    <string name="write_confirm_password_string">Debes confirmar tu contraseña</string>
+    <string name="succesful_register_string">Te has registrado correctamente!</string>
+    <string name="error_register_string">Se ha producido un error al intentar registrar el usuario</string>
+    <string name="login_succesful_string">Has iniciado sesión correctamente!</string>
+    <string name="user_already_exists_string">Ya existe un usuario con ese nombre</string>
+    <string name="incorrect_password_string">Contraseña incorrecta</string>
+    <string name="error_login_string">Se ha producido un error al intentar iniciar sesión</string>
+    <string name="user_not_exists_string">No existe un usuario con ese nombre</string>
+    <string name="username_short_long_string">Tu nombre de usuario debe tener entre %1$d y %2$d caracteres</string>
+    <string name="password_short_long_string">Tu contraseña debe tener entre %1$d y %2$d caracteres</string>
+    <string name="email_short_long_string">Tu email debe tener entre %1$d y %2$d caracteres</string>
+    <string name="too_young_string">Debes tener al menos %1$d años para poder jugar</string>
+    <string name="email_string">📧 Email</string>
+    <string name="birthdate_string">🐣 Fecha de nacimiento</string>
+    <string name="delete_account_string">Darme de baja</string>
+    <string name="change_password_string">Cambiar contraseña</string>
+    <string name="change_email_string">Cambiar email</string>
+    <string name="hello_string">Hola</string>
+    <string name="confirm_new_password_string">Confirma tu nueva contraseña</string>
+    <string name="new_password_string">Nueva contraseña</string>
+    <string name="forgotten_password_string">He olvidado mi contraseña</string>
+    <string name="yes_string">👍 Sí</string>
+    <string name="no_string">👎 No</string>
+    <string name="confirm_logout_string">¿Estás seguro de que quieres cerrar sesión?</string>
+    <string name="logout_string">Cerrar sesión</string>
+    <string name="no_internet_connection_string">¡Tu dispositivo no está conectado a Internet!</string>
+    <string name="you_need_internet_connection_string">Necesitas una conexión activa a Internet para poder jugar a Firefighter Adventure</string>
+    <string name="retry_string">🔃 Reintentar</string>
+    <string name="connection_error_string">No se ha podido establecer la conexión con el servidor de Firefighter Adventure</string>
+    <string name="confirm_new_email_string">Confirma tu nuevo email</string>
+    <string name="new_email_string">Nuevo email</string>
+    <string name="who_we_are_string">Quiénes somos</string>
+    <string name="must_confirm_account_deletion_string">Debes confirmar que quieres darte de baja</string>
+    <string name="confirm_account_deletion_string">Confirmo que quiero borrar permanentemente mi cuenta</string>
+    <string name="back_string">⬅️ Volver</string>
+    <string name="please_enter_your_string">Por favor, introduce tu:</string>
+    <string name="recover_password_string">Recuperar contraseña</string>
+    <string name="ranking_string">Ranking</string>
+    <string name="you_sure_delete_account_string">¿Estás seguro de que quieres borrar permanentemente tu cuenta?</string>
+    <string name="delete_account_two_string">Borrar cuenta</string>
+    <string name="account_deleted_string">Has borrado tu cuenta</string>
+    <string name="write_confirm_new_password">Debes confirmar tu nueva contraseña</string>
+    <string name="write_new_password_string">Debes escribir una nueva contraseña</string>
+    <string name="write_current_password_string">Debes escribir tu contraseña actual</string>
+    <string name="profile_string">Perfil</string>
+    <string name="score_string">💯 Puntuación</string>
+    <string name="ranking_position_string">🏅 Posición en el ranking</string>
+    <string name="shop_string">Tienda</string>
+    <string name="password_changed_string">Has cambiado tu contraseña</string>
+    <string name="your_position_is_string">Tu posición en el ranking es la</string>
+    <string name="email_changed_string">Has cambiado tu email</string>
+    <string name="play_string">Jugar</string>
+    <string name="configuration_string">⚙ Configuración</string>
+    <string name="sumaya_string">Sumaya Benali</string>
+    <string name="suhail_string">Suhail Chaib</string>
+    <string name="meritxell_string">Meritxell Hermoso</string>
+    <string name="gerard_string">Gerard Milán</string>
+    <string name="lluis_string">Lluís Expósito</string>
+    <string name="eric_string">Eric Mata</string>
+    <string name="language_string">🗣 Idioma</string>
+    <string name="choose_app_language_string">Escoger el idioma de la App</string>
+
+    <string-array name="app_language">
+        <item>Inglés</item>
+        <item>Catalán</item>
+        <item>Castellano</item>
+    </string-array>
+
+    <string-array name="languages">
+        <item>en</item>
+        <item>ca</item>
+        <item>es</item>
+    </string-array>
+
+    <string name="choose_a_language_string">️️‍️‍🗨 Escoge un idioma</string>
+    <string name="selected_language_string">Idioma seleccionado:</string>
+    <string name="logged_out_string">Has cerrado sesión</string>
+    <string name="search_user_string">Buscar un usuario</string>
+    <string name="write_new_email_string">Debes escribir un nuevo email</string>
+    <string name="emails_do_not_match_string">Los emails no coinciden</string>
+    <string name="write_confirm_new_email">Debes confirmar tu nuevo email</string>
+    <string name="email_already_exists_string">Ya existe un usuario con ese email</string>
+    <string name="choose_game_string">Elige una partida</string>
+    <string name="map_string">🗺️ Mapa</string>
+    <string name="coins_string">💰 Monedas</string>
+    <string name="created_at_on_string">🔴 Creada a las %1$s del %2$s</string>
+    <string name="last_access_at_on_string">🔥 Último acceso a las %1$s del %2$s</string>
+    <string name="finished_at_on_string">🔚 Finalizada a las %1$s del %2$s</string>
+    <string name="position_string">🏅 Posición</string>
+    <string name="new_game_string">🆕 Nueva partida</string>
+    <string name="health_string">❤ Salud</string>
+    <string name="attack_string">🗡️ Ataque</string>
+    <string name="defense_string">🛡 ️Defensa</string>
+    <string name="healing_string">💊 Sanación</string>
+    <string name="speed_string">⚡ Velocidad</string>
+    <string name="game_does_not_exist_string">La partida no existe</string>
+    <string name="are_you_sure_delete_game_string">¿Estás seguro de que quieres borrar esta partida?</string>
+    <string name="delete_game_string">Borrar partida</string>
+    <string name="price_string">💸 Precio</string>
+    <string name="description_string">💡 Descripción</string>
+    <string name="you_have_string">🎒 Tienes</string>
+    <string name="buy_string">🛒 Comprar</string>
+    <string name="what_do_you_want_to_buy_string">¿Qué quieres comprar?</string>
+    <string name="upgrades_string">Mejoras</string>
+    <string name="items_string">Ítems</string>
+    <string name="change_string">📤 Cambiar</string>
+    <string name="profile_photo_url_string">🔗 URL de la foto de perfil</string>
+    <string name="enter_new_profile_photo_url_string">Introduce una nueva URL de foto de perfil:</string>
+    <string name="must_enter_a_url_string">Debes escribir una URL</string>
+    <string name="you_have_changed_your_profile_photo_string">Has cambiado tu foto de perfil</string>
+    <string name="orders_string">Pedidos</string>
+    <string name="game_deleted_string">Has eliminado la partida</string>
+    <string name="game_created_string">Has creado una nueva partida</string>
+    <string name="create_new_game_string">Crear nueva partida</string>
+    <string name="want_to_create_new_game_string">¿Quieres crear una nueva partida?</string>
+    <string name="bought_at_on_string">Comprado a las %1$s del %2$s</string>
+    <string name="item_does_not_exist_string">El ítem no existe</string>
+    <string name="not_enough_coins_string">No tienes suficientes monedas</string>
+    <string name="you_have_bought_string">Has comprado</string>
+    <string name="amount_string">📦 Cantidad</string>
+    <string name="how_many_do_you_want_to_buy_string">¿Cuántos quieres comprar?</string>
+    <string name="no_games_string">No hay partidas</string>
+    <string name="no_orders_string">No hay pedidos</string>
+    <string name="we_have_sent_you_an_email_string">Te hemos enviado un email con tu nueva contraseña</string>
+
+</resources>
